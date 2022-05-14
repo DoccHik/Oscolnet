@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./css/fonts/Circe/stylesheet.css" />
     <!-- Styles -->
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css" />
     <!-- Slick Slider -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 </head>
@@ -48,9 +49,30 @@
                         <a class="header-login__link" href="#">Личный кабинет</a>
                         <button class="header-login__btn">Оплатить</button>
                     </div>
+                    <div class="header-menu__burger">
+                        <div class="header-menu-birger__icon">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </header>
+        <div class="header-menu-body">
+            <button class="header-menu-body__btn-close"></button>
+            <ul class="header-menu-body__list">
+                <li class="header-menu-body__item">
+                    <a class="header-menu-body__link" href="#">Тарифы для дома</a>
+                </li>
+                <li class="header-menu-body__item">
+                    <a class="header-menu-body__link" href="#">Тарифы для бизнеса</a>
+                </li>
+                <li class="header-menu-body__item">
+                    <a class="header-menu-body__link" href="#">Контакты</a>
+                </li>
+            </ul>
+        </div>
 
         <section class="internet">
             <div class="container">
@@ -85,7 +107,9 @@
                 <div class="tariff__inner">
                     <ul class="tariff-nav">
                         <li class="tariff-nav__item tariff-nav__item-active">Интернет</li>
-                        <li class="tariff-nav__item tariff-nav__item-hit">Интернет + Кабельное ТВ</li>
+                        <li class="tariff-nav__item tariff-nav__item-hit">
+                            Интернет + Кабельное ТВ
+                        </li>
                         <li class="tariff-nav__item">Интернет + Smart TV</li>
                         <li class="tariff-nav__item">Интернет + Телефония</li>
                     </ul>
@@ -99,7 +123,9 @@
                                 </button>
                             </div>
                             <div class="tariff-slider-price">
-                                <h3 class="tariff-slider-price__num">300<span>₽/мес</span></h3>
+                                <h3 class="tariff-slider-price__num">
+                                    300<span>₽/мес</span>
+                                </h3>
                                 <button class="tariff-slider-price__btn">Подключить</button>
                             </div>
                         </div>
@@ -112,50 +138,63 @@
                                 </button>
                             </div>
                             <div class="tariff-slider-price">
-                                <h3 class="tariff-slider-price__num">450<span>₽/мес</span></h3>
+                                <h3 class="tariff-slider-price__num">
+                                    450<span>₽/мес</span>
+                                </h3>
                                 <button class="tariff-slider-price__btn">Подключить</button>
                             </div>
                         </div>
                         <div class="tariff-slider__item tariff-slider__item-hit">
                             <div class="tariff-slider-descr">
                                 <div class="tariff-slider__item-product-name">Energy</div>
-                                <div class="tariff-slider__item-product-speed">100 Мбит/с</div>
+                                <div class="tariff-slider__item-product-speed">
+                                    100 Мбит/с
+                                </div>
                                 <button class="tariff-slider__item-product-btn" type="button">
                                     Подробнее
                                 </button>
                             </div>
                             <div class="tariff-slider-price">
-                                <h3 class="tariff-slider-price__num">600<span>₽/мес</span></h3>
+                                <h3 class="tariff-slider-price__num">
+                                    600<span>₽/мес</span>
+                                </h3>
                                 <button class="tariff-slider-price__btn">Подключить</button>
                             </div>
                         </div>
                         <div class="tariff-slider__item">
                             <div class="tariff-slider-descr">
                                 <div class="tariff-slider__item-product-name">Ultra</div>
-                                <div class="tariff-slider__item-product-speed">200 Мбит/с</div>
+                                <div class="tariff-slider__item-product-speed">
+                                    200 Мбит/с
+                                </div>
                                 <button class="tariff-slider__item-product-btn" type="button">
                                     Подробнее
                                 </button>
                             </div>
                             <div class="tariff-slider-price">
-                                <h3 class="tariff-slider-price__num">900<span>₽/мес</span></h3>
+                                <h3 class="tariff-slider-price__num">
+                                    900<span>₽/мес</span>
+                                </h3>
                                 <button class="tariff-slider-price__btn">Подключить</button>
                             </div>
                         </div>
                         <div class="tariff-slider__item">
                             <div class="tariff-slider-descr">
                                 <div class="tariff-slider__item-product-name">Rush</div>
-                                <div class="tariff-slider__item-product-speed">300 Мбит/с</div>
+                                <div class="tariff-slider__item-product-speed">
+                                    300 Мбит/с
+                                </div>
                                 <button class="tariff-slider__item-product-btn" type="button">
                                     Подробнее
                                 </button>
                             </div>
                             <div class="tariff-slider-price">
-                                <h3 class="tariff-slider-price__num">1100<span>₽/мес</span></h3>
+                                <h3 class="tariff-slider-price__num">
+                                    1100<span>₽/мес</span>
+                                </h3>
                                 <button class="tariff-slider-price__btn">Подключить</button>
                             </div>
                         </div>
-
                     </div>
                     <button class="tariff__btn">Все тарифы</button>
                 </div>
@@ -163,33 +202,37 @@
                     <form class="box__inputs-form">
                         <div class="input__title">Трудно выбрать? Мы поможем!</div>
                         <div class="input-info">
-                            <input type="text" class="box__inputs-input-tel" placeholder="Ваш номер телефона">
-                            <input type="text" class="box__inputs-input-username" placeholder="Как Вас зовут?">
+                            <input type="text" class="box__inputs-input-tel" placeholder="Ваш номер телефона" />
+                            <input type="text" class="box__inputs-input-username" placeholder="Как Вас зовут?" />
                             <button class="unput__btn" type="button">Жду звонка</button>
                         </div>
                         <label class="checkbox" for="">
-                            <input class="consent" type="checkbox">
-                            <span>Нажимая на кнопку, я даю согласие на обработку персональных данных</span>
+                            <input class="consent" type="checkbox" />
+                            <span>Нажимая на кнопку, я даю согласие на обработку персональных
+                                данных</span>
                         </label>
                     </form>
 
                     <form class="box__inputs-form">
-                        <div class="input__title">Проверить возможность подключения по вашему адресу</div>
+                        <div class="input__title">
+                            Проверить возможность подключения по вашему адресу
+                        </div>
                         <div class="input-info-location">
-                            <img src="./img/tariff/location-icon.svg" alt="">
-                            <input type="text" class="box__inputs-input-location" placeholder="Улица">
-                            <input type="number" class="box__inputs-input-house" max="1000" min="1" placeholder="Дом">
+                            <img src="./img/tariff/location-icon.svg" alt="" />
+                            <input type="text" class="box__inputs-input-location" placeholder="Улица" />
+                            <input type="number" class="box__inputs-input-house" max="1000" min="1" placeholder="Дом" />
                             <button class="unput__btn" type="button">Проверить</button>
                         </div>
                     </form>
 
                     <form class="box__inputs-form">
                         <div class="input-info-speed">
-                            <div class="input__title-speed">Проверить скорость интернета</div>
+                            <div class="input__title-speed">
+                                Проверить скорость интернета
+                            </div>
                             <button class="unput__btn" type="button">Проверить</button>
                         </div>
                     </form>
-
                 </div>
             </div>
         </section>
@@ -199,12 +242,15 @@
                 <h2 class="about__title">О компании</h2>
                 <div class="about__inner">
                     <div class="about__section-image">
-                        <img src="./img/about/about-image.jpg" alt="">
+                        <img src="./img/about/about-image.jpg" alt="" />
                     </div>
                     <div class="about__section-descr">
-                        <p class="about__section-text">Сегодня – это крупнейшая компания в Старом Осколе с широким спектром телекоммуникационных услуг: Интернет, телефония, IP телевидение, видеонаблюдение.
+                        <p class="about__section-text">
+                            Сегодня – это крупнейшая компания в Старом Осколе с широким спектром телекоммуникационных услуг: Интернет, телефония, IP телевидение, видеонаблюдение.
                         </p>
-                        <p class="about__section-text">Мы улучшаем качество жизни людей, предоставляя возможность свободного общения в информационном сообществе. Предлагаем самые современные Интернет технологии наивысшего качества. </p>
+                        <p class="about__section-text">
+                            Мы улучшаем качество жизни людей, предоставляя возможность свободного общения в информационном сообществе. Предлагаем самые современные Интернет технологии наивысшего качества.
+                        </p>
                     </div>
                 </div>
                 <div class="about__button">
@@ -213,31 +259,37 @@
             </div>
         </section>
 
-        <section class="the-news">
+        <section class="the-news ">
             <div class="container">
                 <div class="the-news__title">Новости</div>
                 <div class="the-news__inner">
                     <div class="the-news__item">
-                        <img src="./img/news/news-1.jpg" alt="The news image" class="the-news__img">
+                        <img src="./img/news/news-1.jpg" alt="The news image" class="the-news__img" />
                         <div class="the-news__descr">
                             <span class="the-news__date">05.03.2022</span>
-                            <p class="the-news__text">05 марта 2022 с 17:00 до 23:00 на сети интернет будут проводиться планово-профилактические работы.</p>
+                            <p class="the-news__text">
+                                05 марта 2022 с 17:00 до 23:00 на сети интернет будут проводиться планово-профилактические работы.
+                            </p>
                             <a href="#" class="the-news__link">Подробнее</a>
                         </div>
                     </div>
                     <div class="the-news__item">
-                        <img src="./img/news/news-2.jpg" alt="The news image" class="the-news__img">
+                        <img src="./img/news/news-2.jpg" alt="The news image" class="the-news__img" />
                         <div class="the-news__descr">
                             <span class="the-news__date">05.03.2022</span>
-                            <p class="the-news__text">05 марта 2022 с 17:00 до 23:00 на сети интернет будут проводиться планово-профилактические работы.</p>
+                            <p class="the-news__text">
+                                05 марта 2022 с 17:00 до 23:00 на сети интернет будут проводиться планово-профилактические работы.
+                            </p>
                             <a href="#" class="the-news__link">Подробнее</a>
                         </div>
                     </div>
                     <div class="the-news__item">
-                        <img src="./img/news/news-3.jpg" alt="The news image" class="the-news__img">
+                        <img src="./img/news/news-3.jpg" alt="The news image" class="the-news__img" />
                         <div class="the-news__descr">
                             <span class="the-news__date">05.03.2022</span>
-                            <p class="the-news__text">05 марта 2022 с 17:00 до 23:00 на сети интернет будут проводиться планово-профилактические работы.</p>
+                            <p class="the-news__text">
+                                05 марта 2022 с 17:00 до 23:00 на сети интернет будут проводиться планово-профилактические работы.
+                            </p>
                             <a href="#" class="the-news__link">Подробнее</a>
                         </div>
                     </div>
@@ -254,23 +306,27 @@
                 <div class="documents__inner">
                     <div class="documents__item">
                         <div class="documents__item-image">
-                            <img src="./img/documents/document-icon.svg" alt="document icon">
+                            <img src="./img/documents/document-icon.svg" alt="document icon" />
                         </div>
                         <div class="document__descr">
-                            <p class="document__text">Договор оферты на оказание услуг связи (Интернет)</p>
+                            <p class="document__text">
+                                Договор оферты на оказание услуг связи (Интернет)
+                            </p>
                         </div>
                     </div>
                     <div class="documents__item">
                         <div class="documents__item-image">
-                            <img src="./img/documents/document-icon.svg" alt="document icon">
+                            <img src="./img/documents/document-icon.svg" alt="document icon" />
                         </div>
                         <div class="document__descr">
-                            <p class="document__text">Договор оферты на оказание услуг связи (Цифровое Телевидение)</p>
+                            <p class="document__text">
+                                Договор оферты на оказание услуг связи (Цифровое Телевидение)
+                            </p>
                         </div>
                     </div>
                     <div class="documents__item">
                         <div class="documents__item-image">
-                            <img src="./img/documents/document-icon.svg" alt="document icon">
+                            <img src="./img/documents/document-icon.svg" alt="document icon" />
                         </div>
                         <div class="document__descr">
                             <p class="document__text">Лицензия 1</p>
@@ -289,40 +345,40 @@
                 <div class="partners__inner">
                     <div class="partners-slider">
                         <div class="partners-slider__item">
-                            <img class="patrners-slider__item-logo" src="./img/partners/partner-1.png" alt="">
+                            <img class="patrners-slider__item-logo" src="./img/partners/partner-1.png" alt="" />
                         </div>
                         <div class="partners-slider__item">
-                            <img class="patrners-slider__item-logo" src="./img/partners/partner-2.png" alt="">
+                            <img class="patrners-slider__item-logo" src="./img/partners/partner-2.png" alt="" />
                         </div>
                         <div class="partners-slider__item">
-                            <img class="patrners-slider__item-logo" src="./img/partners/partner-3.png" alt="">
+                            <img class="patrners-slider__item-logo" src="./img/partners/partner-3.png" alt="" />
                         </div>
                         <div class="partners-slider__item">
-                            <img class="patrners-slider__item-logo" src="./img/partners/partner-4.png" alt="">
+                            <img class="patrners-slider__item-logo" src="./img/partners/partner-4.png" alt="" />
                         </div>
                         <div class="partners-slider__item">
-                            <img class="patrners-slider__item-logo" src="./img/partners/partner-1.png" alt="">
+                            <img class="patrners-slider__item-logo" src="./img/partners/partner-1.png" alt="" />
                         </div>
                         <div class="partners-slider__item">
-                            <img class="patrners-slider__item-logo" src="./img/partners/partner-2.png" alt="">
+                            <img class="patrners-slider__item-logo" src="./img/partners/partner-2.png" alt="" />
                         </div>
                         <div class="partners-slider__item">
-                            <img class="patrners-slider__item-logo" src="./img/partners/partner-3.png" alt="">
+                            <img class="patrners-slider__item-logo" src="./img/partners/partner-3.png" alt="" />
                         </div>
                         <div class="partners-slider__item">
-                            <img class="patrners-slider__item-logo" src="./img/partners/partner-4.png" alt="">
+                            <img class="patrners-slider__item-logo" src="./img/partners/partner-4.png" alt="" />
                         </div>
                         <div class="partners-slider__item">
-                            <img class="patrners-slider__item-logo" src="./img/partners/partner-1.png" alt="">
+                            <img class="patrners-slider__item-logo" src="./img/partners/partner-1.png" alt="" />
                         </div>
                         <div class="partners-slider__item">
-                            <img class="patrners-slider__item-logo" src="./img/partners/partner-2.png" alt="">
+                            <img class="patrners-slider__item-logo" src="./img/partners/partner-2.png" alt="" />
                         </div>
                         <div class="partners-slider__item">
-                            <img class="patrners-slider__item-logo" src="./img/partners/partner-3.png" alt="">
+                            <img class="patrners-slider__item-logo" src="./img/partners/partner-3.png" alt="" />
                         </div>
                         <div class="partners-slider__item">
-                            <img class="patrners-slider__item-logo" src="./img/partners/partner-4.png" alt="">
+                            <img class="patrners-slider__item-logo" src="./img/partners/partner-4.png" alt="" />
                         </div>
                     </div>
                 </div>
@@ -380,16 +436,16 @@
                         <div class="footer-social">
                             <ul class="footer-social__list">
                                 <li class="footer-social__item">
-                                    <a class="footer-social__link" href="#"><img src="./img/footer/icon-viber.svg" alt="" class="footer-social__img"></a>
+                                    <a class="footer-social__link" href="#"><img src="./img/footer/icon-viber.svg" alt="" class="footer-social__img" /></a>
                                 </li>
                                 <li class="footer-social__item">
-                                    <a class="footer-social__link" href="#"><img src="./img/footer/icon-wa.svg" alt="" class="footer-social__img"></a>
+                                    <a class="footer-social__link" href="#"><img src="./img/footer/icon-wa.svg" alt="" class="footer-social__img" /></a>
                                 </li>
                                 <li class="footer-social__item">
-                                    <a class="footer-social__link" href="#"><img src="./img/footer/icon-telegram.svg" alt="" class="footer-social__img"></a>
+                                    <a class="footer-social__link" href="#"><img src="./img/footer/icon-telegram.svg" alt="" class="footer-social__img" /></a>
                                 </li>
                                 <li class="footer-social__item">
-                                    <a class="footer-social__link" href="#"><img src="./img/footer/icon-vk.svg" alt="" class="footer-social__img"></a>
+                                    <a class="footer-social__link" href="#"><img src="./img/footer/icon-vk.svg" alt="" class="footer-social__img" /></a>
                                 </li>
                             </ul>
                         </div>
@@ -397,14 +453,14 @@
                 </div>
                 <div class="footer-copy">
                     <span>© ЗАО «Осколнэт», 2022</span>
-                    <p>Продолжая использовать наш сайт, вы даете согласие на обработку файлов cookies и других пользовательских данных, в соответствии с Политикой конфиденциальности</p>
-                    <img src="./img/footer/footer-copy-logo.svg" alt="">
+                    <p>
+                        Продолжая использовать наш сайт, вы даете согласие на обработку файлов cookies и других пользовательских данных, в соответствии с Политикой конфиденциальности
+                    </p>
+                    <img src="./img/footer/footer-copy-logo.svg" alt="" />
                 </div>
             </div>
         </footer>
     </div>
-
-
 
     <!-- JQuery CDN -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>

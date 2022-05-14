@@ -27,7 +27,7 @@ $('.tariff-slider').slick({
         {
             breakpoint: 600,
             settings: {
-                slidesToShow: 2,
+                slidesToShow: 1,
                 slidesToScroll: 2
             }
         },
@@ -61,19 +61,27 @@ $('.partners-slider').slick({
             }
         },
         {
-            breakpoint: 600,
+            breakpoint: 800,
             settings: {
                 slidesToShow: 2,
                 slidesToScroll: 2
             }
         },
         {
-            breakpoint: 480,
+            breakpoint: 550,
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1
             }
-        }
+        },
+        {
+            breakpoint: 400,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: false,
+            }
+        },
         // You can unslick at a given breakpoint now by adding:
         // settings: "unslick"
         // instead of a settings object
@@ -86,3 +94,16 @@ $(function() {
     //задание заполнителя с помощью параметра placeholder
     $(".box__inputs-input-tel").mask("+7(___)___-__-__*", { placeholder: "" });
 });
+
+const menuIcon = document.querySelector('.header-menu__burger');
+const menuBody = document.querySelector('.header-menu-body');
+const menuBtnClose = document.querySelector('.header-menu-body__btn-close');
+
+menuIcon.addEventListener('click', function() {
+    menuBody.classList.add('active');
+})
+
+menuBtnClose.addEventListener('click', function() {
+    menuBody.classList.remove('active');
+
+})
